@@ -3,10 +3,15 @@
  
  Setup: 
  Back End:
+ 
  Install MongoDB: Install the lates version of MongoDB and make sure its running
+ 
  Install Dependencies: use the command "npm i" 
+ 
  Populate the Database: Navigate to the NodeJS folder and use the command "node seed.js" 
+ 
  Optional: Run Automated Tests: Use the command "npm test", to make sure theres no errors before you start the server
+ 
  Start Back End Server: use the command "node index.js", logfile.log will show two messages showing what port its running on and that its connected to mongodb
  
  Front End:
