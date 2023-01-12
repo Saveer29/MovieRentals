@@ -45,13 +45,13 @@ class MoviesTable extends Component {
   }
 
   render() {
-    const { movies, sortColumn } = this.props;
+    const { movies, sortColumn, onSort } = this.props;
 
     return (
       <Table
         columns={this.columns}
         data={movies}
-        onSort={this.handleSort}
+        onSort={onSort}
         sortColumn={sortColumn}
       />
     );

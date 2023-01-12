@@ -149,13 +149,13 @@ const rentals = [
 
 const users = [
   {
-    name: "saveer",
+    name: "Saveer",
     email: "saveer@domain.com",
     password: "admin1234",
     isAdmin: true,
   },
   {
-    name: "admin",
+    name: "Admin",
     email: "admin@domain.com",
     password: "admin1234",
     isAdmin: true,
@@ -235,8 +235,9 @@ async function seed() {
       email: user.email,
       password: user.password,
     });
+    if (user.isAdmin === true) newUser.isAdmin = true;
     const salt = await bcrypt.genSalt(10);
-    user.password = await bcrypt.hash(user.password, salt);
+    newUser.password = await bcrypt.hash(newUser.password, salt);
     await newUser.save();
   }
 
