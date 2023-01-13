@@ -21,6 +21,8 @@ Installing Dependencies: use another terminal to navigate to react folder and us
 
 Start Front End Server: Navigate to the react folder and use the command "npm start", this will start the server on http://localhost:3000
 
+Screenshots have been provided to show how the website should work.
+
 Current version 1.0.0:
 
 About version 1.0.0:
