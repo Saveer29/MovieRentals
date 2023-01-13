@@ -7,9 +7,9 @@ Back End:
 
 Install MongoDB: Install the latest version of MongoDB and make sure its running
 
-Install Dependencies: navigate to nodejs folder and use the command "npm i"
+Install Dependencies: Navigate to nodejs folder and use the command "npm i" to install dependencies
 
-Populate the Database: Navigate to the NodeJS folder and use the command "node seed.js"
+Populate the Database: Navigate to the NodeJS folder and use the command "node seed.js", there are two admin accounts that will be stored in the database read About version 1.0.0: below for more details.
 
 Optional: Run Automated Tests: Use the command "npm test", to make sure theres no errors before you start the server
 
@@ -23,7 +23,7 @@ Start Front End Server: Navigate to the react folder and use the command "npm st
 
 Current version 1.0.0:
 
-version 1.0.0:
+About version 1.0.0:
 
 Back End:
 
@@ -39,7 +39,14 @@ Back End has been tested using Jest to perform automated unit and integration te
 
 The routes have the lowest test coverage currently at 50% and will by improved in future versions.
 
-A seed.js file has been provided which will populate the database which is done by navigating to the NodeJS folder through terminal and using the command "node seed.js"
+A seed.js file has been provided which will populate the database which is done by navigating to the NodeJS folder through terminal and using the command "node seed.js". There are two admin accounts, new users can be made but not admin accounts, the login information for both is as follows:
+1. Email: saveer@domain.com
+   Password: admin1234
+   
+1. Email: admin@domain.com
+   Password: admin1234
+  
+Will be adding a feature to allow admins to make regular users admins in future updates.
 
 Front End:
 Front End has been created using React
